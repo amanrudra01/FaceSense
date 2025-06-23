@@ -64,6 +64,12 @@ my-app/
 
 ---
 
+## 🧠 System Architecture
+
+![System Architecture](images/architecture.jpeg)
+
+---
+
 ### 📦 Setup
 1. Clone the repo.
 2. Run `npm install`.
