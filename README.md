@@ -39,7 +39,7 @@
 
 
 ## 📂 Project Structure
-
+```
 my-app/
 │
 ├── public/
@@ -55,7 +55,7 @@ my-app/
 ├── .gitignore
 ├── package.json
 └── ...
-
+```
 
 
 
