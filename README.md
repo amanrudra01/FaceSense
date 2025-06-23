@@ -66,7 +66,7 @@ my-app/
 
 ## 🧠 System Architecture
 
-![System Architecture](images/architecture.jpeg)
+![System Architecture](architecture-diagram.jpeg)
 
 ---
 
