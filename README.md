@@ -15,7 +15,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Tech Stack
 
 - **Frontend:** React
 - **Backend:** AWS Lambda, API Gateway
@@ -25,21 +25,24 @@
 
 ---
 
-## 📷 How It Works
+## 🛠️ System Workflow
 
-1. **User Uploads Image:**  
-   - Employees/students register or mark attendance using their photo via the React frontend.
+### 🔹 Registration Process
+- A user's(employee/student) image is **uploaded manually** to a dedicated S3 bucket (e.g., `facesense-registered-users`).
+- The image upload triggers an **AWS Lambda function**, which:
+  - Uses **Amazon Rekognition** to index the face.
+  - Assigns a **unique ID**.
+  - Stores the metadata (e.g., name, ID, image path) in **Amazon DynamoDB**.
 
-2. **AWS API Gateway:**  
-   - Routes the request to AWS Lambda functions.
+### 🔹 Attendance Marking Process
+- **User camera** captures a real-time image via the **React frontend**.
+- The image is sent through **AWS API Gateway** to a **Lambda function**.
+- The Lambda function:
+  - Stores the image in a separate S3 bucket (e.g., `facesense-visitor-logs`).
+  - Invokes **Amazon Rekognition** to match the face against the registered users.
+  - Logs the result or fetches match details from **DynamoDB**.
+- The **frontend** receives the response (authenticated or not) and displays/logs the outcome accordingly.
 
-3. **Image Handling & Recognition:**  
-   - Uploaded image is stored in S3.
-   - AWS Lambda triggers Amazon Rekognition to compare the face.
-   - Face metadata and results are stored or fetched from DynamoDB.
-
-4. **Result Return:**  
-   - Match result (authenticated or not) is returned to the frontend for action/logging.
 
 ---
 
