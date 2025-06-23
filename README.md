@@ -2,6 +2,8 @@
 
 **FaceSense** is a smart face recognition system that automates attendance marking using AWS services. It captures images from a webcam, sends them to the backend, and authenticates users using facial recognition making attendance seamless and contactless.
 
+---
+
 ## ✨ Features
 
 - 🔒 Face-based secure authentication
@@ -10,7 +12,8 @@
 - 💻 Simple React-based frontend
 - 🧑‍💼 Separate flows for registration and attendance
 - 🏫 Works for both offices and colleges
-  
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -19,6 +22,8 @@
 - **Face Recognition:** Amazon Rekognition
 - **Database:** Amazon DynamoDB
 - **Storage:** Amazon S3
+
+---
 
 ## 📷 How It Works
 
@@ -36,7 +41,7 @@
 4. **Result Return:**  
    - Match result (authenticated or not) is returned to the frontend for action/logging.
 
-
+---
 
 ## 📂 Project Structure
 ```
@@ -57,7 +62,7 @@ my-app/
 └── ...
 ```
 
-
+---
 
 ### 📦 Setup
 1. Clone the repo.
