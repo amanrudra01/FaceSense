@@ -57,6 +57,7 @@ my-app/
 ├── src/
 │ ├── App.js
 │ ├── App.css
+│ ├── Index.css
 │ └── ...
 │ 
 ├── .env.example (Create a `.env` file with your AWS endpoint variables.)
