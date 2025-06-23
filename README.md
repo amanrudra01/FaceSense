@@ -1,14 +1,6 @@
 # FaceSense: AI Powered Attendance for Offices and Colleges (AWS-based)
 
-**FaceSense** is a smart face recognition-based attendance system designed for **offices and colleges**, leveraging **AWS services** for secure and scalable image authentication.
-
-
-
-
-
-# FaceSense: AI-Powered Attendance for Offices and Colleges
-
-**FaceSense** is a smart face recognition system that automates attendance marking using AWS services. It captures images from a webcam, sends them to the backend, and authenticates users using facial recognition — making attendance seamless and contactless.
+**FaceSense** is a smart face recognition system that automates attendance marking using AWS services. It captures images from a webcam, sends them to the backend, and authenticates users using facial recognition making attendance seamless and contactless.
 
 ## ✨ Features
 
