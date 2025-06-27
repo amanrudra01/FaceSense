@@ -1,6 +1,6 @@
 # FaceSense: AI Powered Attendance for Offices and Colleges (AWS-based)
 
-**FaceSense**is an AI-powered facial recognition system designed for identity verification in institutional and security contexts. It enables seamless attendance marking by capturing a user's face through a real-time camera feed, matching it against a registered database using AWS Rekognition. Beyond attendance, FaceSense can also be integrated into secure access systems, offering an efficient and automated alternative to traditional ID-based authentication. The system leverages cloud technologies like Amazon S3, Lambda, DynamoDB, and API Gateway to ensure scalable, fast, and reliable face recognition workflows.
+**FaceSense** is an AI-powered facial recognition system designed for identity verification in institutional and security contexts. It enables seamless attendance marking by capturing a user's face through a real-time camera feed, matching it against a registered database using AWS Rekognition. Beyond attendance, FaceSense can also be integrated into secure access systems, offering an efficient and automated alternative to traditional ID-based authentication. The system leverages cloud technologies like Amazon S3, Lambda, DynamoDB, and API Gateway to ensure scalable, fast, and reliable face recognition workflows.
 
 ---
 
