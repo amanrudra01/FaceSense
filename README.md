@@ -1,4 +1,12 @@
 # FaceSense: AI-Powered Face Authentication for Colleges and Workplaces (AWS-based)
+![Python](https://img.shields.io/badge/Python-3.9+-blue?style=flat-square&logo=python)
+![React](https://img.shields.io/badge/Frontend-React-blue?style=flat-square&logo=react)
+![Amazon Rekognition](https://img.shields.io/badge/AWS-Rekognition-orange?style=flat-square&logo=amazonaws)
+![Amazon S3](https://img.shields.io/badge/AWS-S3-orange?style=flat-square&logo=amazonaws)
+![AWS Lambda](https://img.shields.io/badge/AWS-Lambda-orange?style=flat-square&logo=amazonaws)
+![DynamoDB](https://img.shields.io/badge/AWS-DynamoDB-orange?style=flat-square&logo=amazonaws)
+![API Gateway](https://img.shields.io/badge/AWS-API--Gateway-orange?style=flat-square&logo=amazonaws)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen?style=flat-square)
 
 **FaceSense** is an AI-powered facial recognition system designed for identity verification in institutional and security contexts. It enables seamless attendance marking by capturing a user's face through a real-time camera feed, matching it against a registered database using AWS Rekognition. Beyond attendance, FaceSense can also be integrated into secure access systems, offering an efficient and automated alternative to traditional ID-based authentication. The system leverages cloud technologies like Amazon S3, Lambda, DynamoDB, and API Gateway to ensure scalable, fast, and reliable face recognition workflows.
 
