@@ -80,17 +80,17 @@ my-app/
 
 ![System Architecture](Architecture-diagram/architecture-diagram.jpeg)
 
----
 ## 📸 Screenshots
 
 ### 🔹 Start Camera
-![Registration](ScreenShots/01-Start_Camera.png)
+<img src="ScreenShots/01-Start_Camera.png" alt="Start Camera" width="600"/>
 
 ### 🔹 Capture Image 
-![Attendance](ScreenShots/02-Capture_Image.png)
+<img src="ScreenShots/02-Capture_Image.png" alt="Capture Image" width="600"/>
 
 ### 🔹 Authenticate
-![Dashboard](ScreenShots/03-Authenticate.png)
+<img src="ScreenShots/03-Authenticate.png" alt="Authenticate" width="600"/>
+
 
 ---
 
