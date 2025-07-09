@@ -81,6 +81,18 @@ my-app/
 ![System Architecture](Architecture-diagram/architecture-diagram.jpeg)
 
 ---
+## 📸 Screenshots
+
+### 🔹 Start Camera
+![Registration](ScreenShots/01-Start_Camera.png)
+
+### 🔹 Capture Image 
+![Attendance](ScreenShots/02-Capture_Image.png)
+
+### 🔹 Authenticate
+![Dashboard](ScreenShots/03-Authenticate.png)
+
+---
 
 ### 📦 Setup
 1. Clone the repo.
